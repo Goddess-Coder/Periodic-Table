@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    background: #fbfbfb;
+}
+.container{
+    width:90%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 30px;
+    grid-template-rows: 30px;
+}
+.rows{
+    display: flex;
+    color: red;
+    margin-top:1px;
+    margin-left:13px;
+}
+    .rows .wordPar{
+        padding:23px;
+        font-size:9pt;
+    }
+    .rows .itemRow{
+    font-size: 8.5pt;
+    display: flex;
+    }
+    .rows span{
+        padding:25px;
+    }
+
+.columns{
+    display: inline-block;
+    color: red;
+    margin-top:12px;
+    margin-left:37px;
+}
+    .columns .wordPar{
+        font-size:9pt;
+    }
+    .columns .itemColumn{
+    padding:22px;
+    font-size: 8.5pt;
+    margin-top:-29px;
+    }
+    .columns span {
+        display: inline-block;
+        padding:22px;
+        margin-left:-21px;
+    }
+.bPy{
+    display: flex;
+    justify-content: space-between;
+} 
+.blueSection{
+    display: grid;
+    margin:30px 10px 10px 2px;
+    width: 57px;
+    display: flex;
+}
+    .blueSection .blueBoxes .blue{
+        border: 1px solid black;
+        background-color:#689bff;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .blueSection .blueBoxes h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .blueSection .blueBoxes span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:14px;
+    }
+    .blueSection .blueBoxesCont {
+        margin:53px 0px 10px 2px;
+    }
+    .blueSection .blueBoxesCont .blue{
+        border: 1px solid black;
+        background-color:#689bff;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        margin-left:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .blueSection .blueBoxesCont h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .blueSection .blueBoxesCont span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:14px;
+    }
+
+.pinkSection{
+    display: grid;
+    margin:189px 10px 10px 58px;
+    width: 57px;
+    display: flex;
+}
+    .pinkSection .pinkBoxes .pink{
+        border: 1px solid black;
+        background-color:#fd9a98;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .pinkSection .pinkBoxes h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .pinkSection .pinkBoxes span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:12px;
+    }
+    .pinkSection .pinkBoxesCont {
+        margin:0px 0px 10px 2px;
+    }
+    .pinkSection .pinkBoxesCont .pink{
+        border: 1px solid black;
+        background-color:#fd9a98;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .pinkSection .pinkBoxesCont h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .pinkSection .pinkBoxesCont span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:12px;
+    }
+/* yellow section */
+.yellowSection{
+    display: grid;
+    margin:83px 10px 10px 512px;
+    width: 57px;
+    display: flex;
+}
+    .yellowSection .yellowBoxes .yellow{
+        border: 1px solid black;
+        background-color:#fecb00;
+        width: 56px;
+        height: 52px;
+        margin-left:2px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .yellowSection .yellowBoxes h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .yellowSection .yellowBoxes span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:12px;
+    }
+    .yellowSection .yellowBoxes .single{
+        margin-left:17px;
+    }
+    .yellowSection .yellowBoxesCont {
+        margin:-53px 0px 10px 2px;
+    }
+    .yellowSection .yellowBoxesCont .yellow{
+        border: 1px solid black;
+        background-color:#fecb00;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        margin-left:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .yellowSection .yellowBoxesCont h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .yellowSection .yellowBoxesCont span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:12px;
+    }
+    .yellowSection .yellowBoxesCont .single{
+        margin-left:17px;
+    }
+.greenSection{
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+    .greenSection p{
+        color:red;
+        font-size: 10pt;
+        font-weight: 400;
+    }
+    .greenSection .green{
+        border: 1px solid black;
+        background-color:#20ca21;
+        width: 56px;
+        height: 52px;
+        margin-left:2px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .greenSection .greenBoxes{
+        margin-top:-10px;
+    }
+    .greenSection .greenBoxes h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -35px;
+    margin-left:2px;
+    margin-bottom:1px;
+    }
+    .greenSection .greenBoxes span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:13px;
+        margin-top:34px;
+    }
+    .greenSection .greenBoxesCont .green{
+        border: 1px solid black;
+        background-color:#20ca21;
+        width: 56px;
+        height: 52px;
+        margin-top:0px;
+        margin-left:0px;
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+    }
+    .greenSection .greenBoxesCont h2{
+    color:#0d27a2;
+    font-size: medium;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom:-2px;
+    }
+    .greenSection .greenBoxesCont span{
+        color:#10161e;    
+        font-size:8pt;
+        text-align: center;
+        margin-left:12px;
+    }
+    .greenSection .greenSecWords p{
+        margin-left: 90px;
+        margin-top:15px;
+        
+
+    }
+    .greenSection .greenSecWords #aWord{
+        margin-top:32px;
+    }
+    .greenSection .symbols {
+        margin-left:57px;
+        margin-top:15px;
+    }
+    .greenSection .symbols #secSymbol{
+        margin-top:33px;
+    }
